@@ -21,10 +21,8 @@ El proyecto fue desarrollado a partir de un caso contextualizado, abordando prob
 ```plaintext
 📁 src/
 ├── app/         # Clase principal con el método main
-├── model/       # Clases de dominio (Persona, Cliente, Empleado, Producto, etc.)
-├── data/        # Clases para la carga y lectura de archivos .txt
-├── utils/       # Utilidades y validaciones
-└── interfaces/  # Interfaces implementadas por las clases
+├── model/       # Clases de dominio (Persona, Empleado y Direccion.)
+
 ````
 
 ---
@@ -56,4 +54,5 @@ git clone https://github.com/usuario/repositorio-evaluacion-final.git
 ---
 
 © Duoc UC | Escuela de Informática y Telecomunicaciones | Evaluación Final Transversal EFT
+
 
