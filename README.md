@@ -2,10 +2,10 @@
 # 🧠 Evaluación Final Transversal – Desarrollo Orientado a Objetos I
 
 ## 👤 Autor del proyecto
-- **Nombre completo:** [Escribe aquí tu nombre]
+- **Nombre completo:** Matias Rosales
 - **Sección:** [Escribe aquí tu sección]
-- **Carrera:** Ingeniería en Informática
-- **Sede:** [Escribe aquí tu sede, por ejemplo: Puerto Montt]
+- **Carrera:** Analista programador computacional
+- **Sede:** Sede online
 
 ---
 
@@ -56,3 +56,4 @@ git clone https://github.com/usuario/repositorio-evaluacion-final.git
 ---
 
 © Duoc UC | Escuela de Informática y Telecomunicaciones | Evaluación Final Transversal EFT
+
