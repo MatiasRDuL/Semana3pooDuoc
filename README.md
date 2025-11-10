@@ -21,7 +21,7 @@ El proyecto fue desarrollado a partir de un caso contextualizado, abordando prob
 ```plaintext
 📁 src/
 ├── app/         # Clase principal con el método main
-├── model/       # Clases de dominio (Persona, Empleado y Direccion.)
+└── model/       # Clases de dominio (Persona, Empleado y Direccion.)
 
 ````
 
@@ -34,7 +34,7 @@ El proyecto fue desarrollado a partir de un caso contextualizado, abordando prob
 1. Clona el repositorio desde GitHub:
 
 ```bash
-git clone https://github.com/usuario/repositorio-evaluacion-final.git
+git clone https://github.com/MatiasRDuL/Semana3pooDuoc.git
 ```
 
 2. Abre el proyecto en IntelliJ IDEA.
@@ -54,6 +54,7 @@ git clone https://github.com/usuario/repositorio-evaluacion-final.git
 ---
 
 © Duoc UC | Escuela de Informática y Telecomunicaciones | Evaluación Final Transversal EFT
+
 
 
 
