@@ -1,0 +1,90 @@
+<html>
+<head>
+<title>Direccion.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #5f826b; font-style: italic;}
+.s4 { color: #7a7e85;}
+.s5 { color: #67a37c; font-style: italic;}
+.s6 { color: #6aab73;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Direccion.java</font>
+</center></td></tr></table>
+<pre><span class="s0">package </span><span class="s1">model</span><span class="s2">;</span>
+
+<span class="s3">/** Representa una direccion. Incluye calle, numero, ciudad y region */</span>
+
+<span class="s0">public class </span><span class="s1">Direccion </span><span class="s2">{</span>
+
+    <span class="s4">//variables privadas</span>
+
+    <span class="s0">private </span><span class="s1">String calle</span><span class="s2">;</span>
+    <span class="s0">private int </span><span class="s1">numCasa</span><span class="s2">;</span>
+    <span class="s0">private </span><span class="s1">String ciudad</span><span class="s2">;</span>
+    <span class="s0">private </span><span class="s1">String region</span><span class="s2">;</span>
+
+    <span class="s3">/** Constructor que inicializa los datos de una direccion</span>
+     <span class="s3">* </span><span class="s5">@param </span><span class="s3">calle calle de residencia</span>
+     <span class="s3">* </span><span class="s5">@param </span><span class="s3">numCalle numero de casa</span>
+     <span class="s3">* </span><span class="s5">@param </span><span class="s3">ciudad ciudad de residencia</span>
+     <span class="s3">* </span><span class="s5">@param </span><span class="s3">region region de residencia</span>
+     <span class="s3">*  */</span>
+
+    <span class="s0">public </span><span class="s1">Direccion</span><span class="s2">(</span><span class="s1">String calle</span><span class="s2">, </span><span class="s0">int </span><span class="s1">numCalle</span><span class="s2">, </span><span class="s1">String ciudad</span><span class="s2">, </span><span class="s1">String region</span><span class="s2">) {</span>
+        <span class="s0">this</span><span class="s2">.</span><span class="s1">calle </span><span class="s2">= </span><span class="s1">calle</span><span class="s2">;</span>
+        <span class="s0">this</span><span class="s2">.</span><span class="s1">numCasa </span><span class="s2">= </span><span class="s1">numCalle</span><span class="s2">;</span>
+        <span class="s0">this</span><span class="s2">.</span><span class="s1">ciudad </span><span class="s2">= </span><span class="s1">ciudad</span><span class="s2">;</span>
+        <span class="s0">this</span><span class="s2">.</span><span class="s1">region </span><span class="s2">= </span><span class="s1">region</span><span class="s2">;</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public </span><span class="s1">String getCalle</span><span class="s2">() {</span>
+        <span class="s0">return </span><span class="s1">calle</span><span class="s2">;</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public void </span><span class="s1">setCalle</span><span class="s2">(</span><span class="s1">String calle</span><span class="s2">) {</span>
+        <span class="s0">this</span><span class="s2">.</span><span class="s1">calle </span><span class="s2">= </span><span class="s1">calle</span><span class="s2">;</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public int </span><span class="s1">getNumCasa</span><span class="s2">() {</span>
+        <span class="s0">return </span><span class="s1">numCasa</span><span class="s2">;</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public void </span><span class="s1">setNumCasa</span><span class="s2">(</span><span class="s0">int </span><span class="s1">numCasa</span><span class="s2">) {</span>
+        <span class="s0">this</span><span class="s2">.</span><span class="s1">numCasa </span><span class="s2">= </span><span class="s1">numCasa</span><span class="s2">;</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public </span><span class="s1">String getCiudad</span><span class="s2">() {</span>
+        <span class="s0">return </span><span class="s1">ciudad</span><span class="s2">;</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public void </span><span class="s1">setCiudad</span><span class="s2">(</span><span class="s1">String ciudad</span><span class="s2">) {</span>
+        <span class="s0">this</span><span class="s2">.</span><span class="s1">ciudad </span><span class="s2">= </span><span class="s1">ciudad</span><span class="s2">;</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public </span><span class="s1">String getRegion</span><span class="s2">() {</span>
+        <span class="s0">return </span><span class="s1">region</span><span class="s2">;</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public void </span><span class="s1">setRegion</span><span class="s2">(</span><span class="s1">String region</span><span class="s2">) {</span>
+        <span class="s0">this</span><span class="s2">.</span><span class="s1">region </span><span class="s2">= </span><span class="s1">region</span><span class="s2">;</span>
+    <span class="s2">}</span>
+
+    <span class="s3">/** Metodo toString</span>
+     <span class="s3">* </span><span class="s5">@return </span><span class="s3">Datos de direccion personalizado */</span>
+
+    <span class="s0">public </span><span class="s1">String toString</span><span class="s2">(){</span>
+        <span class="s0">return </span><span class="s6">&quot;|| Direccion: &quot; </span><span class="s2">+ </span><span class="s1">calle </span><span class="s2">+ </span><span class="s6">&quot; &quot; </span><span class="s2">+ </span><span class="s1">numCasa </span><span class="s2">+ </span><span class="s6">&quot; , &quot; </span><span class="s2">+ </span><span class="s1">ciudad </span><span class="s2">+ </span><span class="s6">&quot; , &quot; </span><span class="s2">+ </span><span class="s1">region </span><span class="s2">+ </span><span class="s6">&quot; ||&quot;</span><span class="s2">;</span>
+    <span class="s2">}</span>
+
+<span class="s2">}</span>
+</pre>
+</body>
+</html>
